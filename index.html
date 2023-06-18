@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Append</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <h1>Append table</h1>
+   <div class="input-row">
+    <input class="input" id="input-1" type="text" placeholder="Vardas" autocomplete="none">
+    <input class="input" id="input-2" type="text" placeholder="Pavardė" autocomplete="none">
+    <input class="input" id="input-3" type="text" placeholder="Amžius" autocomplete="none">
+   </div>
+   <div class="button-row">
+    <button class="button-main" id="add">Pridėti</button>
+    <button class="button-main" id="remove-first">Ištrinti pirmą</button>
+    <button class="button-main" id="remove-last">Ištrinti paskutinį</button>
+   </div> 
+   <table id="table">
+    <thead>
+        <tr>
+            <th>Vardas</th>
+            <th>Pavardė</th>
+            <th>Amžius</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+
+    </tbody>
+   </table>
+    
+   <script src="script.js"></script>
+    
+</body>
+</html>

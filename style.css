@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(90deg, #FAF0E4, #9BCDD2);
+}
+
+input{
+    width: 170px;
+    margin-bottom: 5px;
+}
+
+.button-main {
+    width: 178px;
+    margin-bottom: 5px;
+}
+
+/* table */
+
+table#table {
+    font-size: 1.5em;
+    font-family: 'Ysabeau', sans-serif;
+    /* margin: 20px auto; */
+    border: 2px solid #ffc108;
+    border-collapse: collapse;
+
+}
+table#table td {
+    border: 2px solid #ffc108;
+    width: 200px;
+    padding: 20px;
+}
+
+table#table th {
+    border: 2px solid #ffc108;
+    width: 200px;
+    padding: 20px;
+}
+
+
+table#table thead {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffc108 ;
+}
+
+table#table th:nth-of-type(2) {
+    background: #e8ae31 ;
+}
+
+
+table#table tbody {
+    
+    text-align: left;
+    background: #392b6f;
+    color: white;
+}
